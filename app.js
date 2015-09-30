@@ -6,13 +6,13 @@ var router = express.Router();
 // Provide all routes here, this is for Home page.
 
 router.get("/",function(req,res){
-  res.json({"message" : "Hello World"});
+  res.json({"message" : "Hello Selena"});
 });
 
 // Tell express to use this router with /api before.
 // You can put just '/' if you don't want any sub path before routes.
 
-helloselena.use("/api",router);
+helloselena.use("/selena",router);
 
 // Listen to this Port
 
